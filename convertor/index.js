@@ -20,7 +20,7 @@ function giveResultVol() {
 function giveResultMass() {
     let convKil = (inputField.value * 2.204).toFixed(3)
     let convPound = (inputField.value / 2.204).toFixed(3)
-    massResult.innerHTML = `${inputField.value} kilograms = ${convKil} pounds | ${inputField.value} gallon = ${convPound} kilograms`
+    massResult.innerHTML = `${inputField.value} kilograms = ${convKil} pounds | ${inputField.value} pounds = ${convPound} kilograms`
 } 
 
 
